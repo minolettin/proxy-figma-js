@@ -1,6 +1,6 @@
 {
-  "name": "figma-js",
-  "version": "1.16.0",
+  "name": "proxy-figma-js",
+  "version": "1.16.1",
   "description": "A simple wrapper for the Figma API",
   "main": "build/main/index.js",
   "types": "build/main/index.d.ts",
@@ -54,9 +54,11 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "https-proxy-agent": "5.0.1"
   },
   "devDependencies": {
+    "@types/node": "18.11.19",
     "ava": "^3.12.1",
     "codecov": "^3.7.2",
     "cz-conventional-changelog": "^3.3.0",
