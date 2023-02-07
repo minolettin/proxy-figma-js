@@ -1,5 +1,5 @@
 {
-  "name": "proxy-figma-js",
+  "name": "proxy-figma-js2",
   "version": "1.16.1",
   "description": "A simple wrapper for the Figma API",
   "main": "build/main/index.js",
